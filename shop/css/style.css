@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*normalize user agent styles*/
+h4 {
+display: inline;
+-webkit-margin-before: 1.33em;
+-webkit-margin-after: 1.33em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+font-weight: bold;
+}
+
+
+
+/*custom stylesheet*/
+h1, h2, h3, h4, h5, h6 {
+	line-height: 22pt;
+}
+
+.action {
+	color: #09F;
+}
+
+.title {
+	text-align: center;
+}
+
+fieldset {
+	margin: 0 10px 2em 10px;
+}
+
+legend {
+	font-weight: bold;
+	color: #09F;
+	font-size: 22px;
+}
+
+input {
+    /*float:right;*/
+    clear:both;
+	margin-right: 30%;
+	width: 90%;
+	font-size: 18px;
+}
+
+.gen-info {
+	float: left;
+	width: 50%;
+}
+
+.indent-min {
+	margin-left: 3.5em;
+	max-width: 80%;
+}
+
+.half {
+	max-width: 40%;
+}
+
+.right {
+	float: right;
+}
+
+.zero {
+	margin-right: 0;
+}
+
+.one {
+	margin-right: 10%;
+}
+
+.wrap-min {
+	max-width: 300px;
+}
+
+.search {
+	float: left;
+	margin: 1.5em auto;
+	width: 300px
+}
+
+.check {
+	float: none;
+	clear: both;
+	margin-right: 0;
+	width: 5%;
+}
+
+.pin {	
+	width: 100px;
+	clear: both;
+	margin-right: 0;
+	margin-bottom: 0.3em;
+}
+
+.ngalan {
+	width: 60%;
+	margin-bottom: 0.3em;
+}
+
+.submit {
+	width: 250px;
+	margin-bottom: 1em !important;
+}
+
+.center {
+	margin: 0 auto;
+}
+
+.info {
+	width: 95%;
+	margin: 0 auto;
+	background: #09F;
+	height: 50px;
+	border: #ccc 1px solid;
+	border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+	color: #fff;
+
+	
+	border-collapse: separate;
+	border-spacing: 10px;
+	
+	display: table;
+	border-collapse: separate;
+	border-spacing: 2px;
+	border-color: gray;
+}
+
+table th {
+	padding: 10px 10px;
+	background: #09F;
+	font-size: 16pt;
+}
+
+table td {
+	color: #000;
+	background: #fff;
+	padding: 0 1em 0 1em;
+}
+
+table tr.even td {
+	background: #eee;
+}
+
+
+
+/*OUTPUT*/
+.page-margin-left {
+	margin-left: 0.25in;
+}
+
+.page-margin-left-2 {
+	margin-left: 0.3in;
+}
+
+.page-margin-right {
+	margin-right: 1in;
+}
+
+.linebreak-1 {
+	margin-bottom: 5cm;
+}
+
+.bold {
+	font-weight: bold;
+	color: #191919;
+}
+
+.underline {
+	text-decoration: underline;
+	color: #323232;
+}
+
+.titulo {
+	color: #191919;
+}
+
+.sys h1 {
+	font-family: stencil !important;
+	color: #191919;
+	font-size: 32pt;
+}
+
+.radio {
+float: none;
+margin-right: 0;
+width: 5%;
+}

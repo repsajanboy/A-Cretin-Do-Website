@@ -1,0 +1,43 @@
+@charset "utf-8";
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+#boddy {
+  background:url(img/white_leather.png) repeat 0 0;
+  background-color: #FFFFFF;
+}
+#imgg {
+  margin: auto;
+  display: block;
+}
+.header3{
+	text-align:center;
+	background:url(../img/carheader.jpg) left top repeat;
+	padding:90px 0;
+  width: 100%;
+  height: auto;
+  background-size: 100% 100%;
+}
+.form3_code {
+	text-align: center;
+}
+
+.form3_code .post_code {
+	display: block;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 2rem;
+	padding: .6rem;
+	border:none;
+	outline:none;
+}
+
+.form3_code button {
+	width: 30%;
+	text-align: center;
+	background-color: #01c7e3;
+	color: white;
+	padding: .6rem;
+	margin:1rem auto 0rem;
+	border: none;
+	border-radius: .3rem;
+}
